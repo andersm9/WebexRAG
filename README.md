@@ -7,7 +7,7 @@ e.g.
 $uvicorn main:app --reload --host 172.31.22.244 --port 80
 
 # High Level Operation
-## Indexing 
+## 1.Indexing 
 This happens at boot time for the solution and creates a pipeline for ingesting data from a source and indexing it
 ### Load: 
 First we will load our data. This is done with a range Document Loaders that can accept docuent in the following formats:
@@ -24,7 +24,7 @@ Text splitters will break the Documents into smaller chunks. This is useful both
 ### Store: 
 We will store and index our splits, so that they can be searched over later. This will be done using a VectorStore and Embeddings model.
 
-## Retrieval and generation
+## 2.Retrieval and generation
 This is the actual RAG chain, which takes the user query (from Webex) at run time and retrieves the relevant data from the index, then passes that to the model.
 ### Retrieve
 Taking the users input (typically a question) relevant splits are retrieved from storage using a Retriever.
