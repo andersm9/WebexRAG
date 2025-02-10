@@ -54,12 +54,12 @@ This key should then be placed in a .env file containing the following form:
 
 The following shows the form of detail required for a private Azure LLM instance (with substituted details). The form of these details are likely to vary between different LLMproviders.
 
-client_id                   = "FAKE_2abc3d45ef6789012345g6789h0ij12"
-client_secret               = "FAKE_2abc3d45ef6789012345g6789h0ij12"
-ORG_OPENAI_APP_KEY 	        = "etcf-prd-project-sales-dev-testing-batch-3"
-ORG_BRAIN_USER_ID           = ''
-url                         = "https://id.org.com/oauth2/default/v1/token"
-payload                     = "grant_type=client_credentials"
+- client_id                   = "FAKE_2abc3d45ef6789012345g6789h0ij12"
+- client_secret               = "FAKE_2abc3d45ef6789012345g6789h0ij12"
+- ORG_OPENAI_APP_KEY 	        = "etcf-prd-project-sales-dev-testing-batch-3"
+- ORG_BRAIN_USER_ID           = ''
+- url                         = "https://id.org.com/oauth2/default/v1/token"
+- payload                     = "grant_type=client_credentials"
 
 ## Operational notes
 
