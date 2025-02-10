@@ -69,7 +69,7 @@ User state (the ephemeral_chat_history object for a particular user) is currentl
 The LLM in use times out every 60 minutes. In this event, a new user interaction will trigger a token update.
 
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://www.youtube.com/watch?v=5Ja8w9jyskc)
+[![Watch the video](Cover.png)](https://www.youtube.com/watch?v=5Ja8w9jyskc)
 
 [![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)]([![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA))
 
