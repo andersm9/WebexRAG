@@ -1,7 +1,7 @@
 # WebexRAG
 Have a chat with a range of document types over Cisco Webex
 ## Startup
-The service is started with:
+The service is started with:  
 uvicorn main:app --reload --host <IP> --port 80  
 e.g.  
 $uvicorn main:app --reload --host 172.31.22.244 --port 80
