@@ -68,10 +68,9 @@ The tool has not been tested for scalability.
 User state (the ephemeral_chat_history object for a particular user) is currently held in memory (in the form of the userStore{} Dict in GPTInterface.py. This should be moved to a dB as a next development step to aid scalability. The object is overwritten during each token refresh cycle (once per hour).
 The LLM in use times out every 60 minutes. In this event, a new user interaction will trigger a token update.
 
-
+## Video Demo
 [![Watch the video](Cover.png)](https://www.youtube.com/watch?v=5Ja8w9jyskc)
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)]([![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA))
 
 
 
