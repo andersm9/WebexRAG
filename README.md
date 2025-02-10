@@ -74,7 +74,7 @@ The LLM in use times out every 60 minutes. In this event, a new user interaction
 
 ![](spaceChat2.mov)
 
-<video src="https://[https://github.com/andersm9/WebexRAG/blob/main/spaceChat2.mov]()" width="300" />
+<video src="https://[https://github.com/andersm9/WebexRAG/blob/main/spaceChat2.mov]" width="300" />
 
 
 
