@@ -69,7 +69,12 @@ User state (the ephemeral_chat_history object for a particular user) is currentl
 The LLM in use times out every 60 minutes. In this event, a new user interaction will trigger a token update.
 
 
-<video src="spaceChat2.mov" controls="controls" style="max-width: 730px;">
+<video src="https://github.com/andersm9/WebexRAG/blob/main/spaceChat2.mov" controls="controls" style="max-width: 730px;">
 </video>
 
 ![](spaceChat2.mov)
+
+<video src="https://[github.com/rayytsn9/ROBOTT/assets/79029536/62f541aa-aa8c-43f5-9ead-4b7a2e0d7c2a]()" width="300" />
+
+
+
