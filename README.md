@@ -71,3 +71,5 @@ The LLM in use times out every 60 minutes. In this event, a new user interaction
 
 <video src="spaceChat2.mov" controls="controls" style="max-width: 730px;">
 </video>
+
+![](spaceChat2.mov)
