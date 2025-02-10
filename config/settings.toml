@@ -1,1 +1,16 @@
+[webex]
+bot_access_token            = "Your_Key_12qw34er56ty67yu89io90po"
+bot_id                      = "Your_Key_112qw34er56ty78yu90uo"
+bot_user_name               = "YourBotName@webex.bot"
+message_callback_url        = "http://<yourServer>/webexMessage"
+connect_timeout_sec         = 30
+transmit_timeout_sec        = 30
+debug_webhooks_disabled     = false
 
+[BridgeIT]
+client_id                   = "your_client_id_112qw34er56ty78yu90uo"
+client_secret               = "your_client_secret_112qw34er56ty78yu90uo"
+ORG_OPENAI_APP_KEY 	        = "your-app-key-sys-blah-4"
+ORG_BRAIN_USER_ID           = 'BLAH'
+url                         = "https://id.<yourOrg>.com/oauth2/default/v1/token"
+payload                     = "grant_type=client_credentials"
