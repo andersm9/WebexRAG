@@ -68,6 +68,24 @@ The tool has not been tested for scalability.
 User state (the ephemeral_chat_history object for a particular user) is currently held in memory (in the form of the userStore{} Dict in GPTInterface.py. This should be moved to a dB as a next development step to aid scalability. The object is overwritten during each token refresh cycle (once per hour).
 The LLM in use times out every 60 minutes. In this event, a new user interaction will trigger a token update.
 
+### Optimizations - Temperature
+
+LLM temperature is a parameter that controls how random a large language model (LLM) is when it generates text and is set withing GPTIntrface.py, e.g. 
+temperature=0.00
+Low temperature
+The LLM is more likely to choose the most probable tokens, resulting in more predictable and conservative outputs
+High temperature
+The LLM is more likely to choose less probable tokens, resulting in more varied and creative outputs
+
+### Optimizations - retriever
+#### Score_threshold
+Sets a similarity score threshold and only returns documents with a score above that threshold.
+#### 'K'
+Set the number of resutls to return
+### Optimizations - recursiveCharacterTextSplitter 
+Chunk size is the maximum number of characters that a chunk can contain.
+Chunk overlap is the number of characters that should overlap between two adjacent chunks
+
 ## Video Demo
 [![Watch the video](Cover.png)](https://www.youtube.com/watch?v=5Ja8w9jyskc)
 
