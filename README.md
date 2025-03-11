@@ -1,5 +1,5 @@
 # WebexRAG
-Have a chat with a range of document types over Cisco Webex
+Have a chat with a range of document types over Cisco Webex, using Retrieval Augmented Generation with a Large Language Model such as ChatGPT
 ## Startup
 The service is started with:  
 uvicorn main:app --reload --host <IP> --port 80  
